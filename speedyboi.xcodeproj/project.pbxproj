@@ -1,0 +1,966 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		670FA699286C5F3900065114 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 670FA698286C5F3900065114 /* AppDelegate.swift */; };
+		670FA69B286C5F3900065114 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 670FA69A286C5F3900065114 /* SceneDelegate.swift */; };
+		670FA69E286C5F3900065114 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 670FA69C286C5F3900065114 /* LaunchScreen.storyboard */; };
+		670FA6A1286C5F3900065114 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 670FA69F286C5F3900065114 /* Main.storyboard */; };
+		670FA6AA286C5F3900065114 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 670FA6A9286C5F3900065114 /* AppDelegate.swift */; };
+		670FA6AD286C5F3900065114 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 670FA6AB286C5F3900065114 /* Main.storyboard */; };
+		670FA6B4286C5F3900065114 /* speedyboi Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 670FA6B3286C5F3900065114 /* speedyboi Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		670FA6BE286C5F3900065114 /* speedyboi Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 670FA6BD286C5F3900065114 /* speedyboi Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		670FA6C4286C5F3900065114 /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = 670FA67F286C5F3800065114 /* Main.html */; };
+		670FA6C5286C5F3900065114 /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = 670FA67F286C5F3800065114 /* Main.html */; };
+		670FA6C6286C5F3900065114 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 670FA681286C5F3800065114 /* Icon.png */; };
+		670FA6C7286C5F3900065114 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 670FA681286C5F3800065114 /* Icon.png */; };
+		670FA6C8286C5F3900065114 /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = 670FA682286C5F3800065114 /* Style.css */; };
+		670FA6C9286C5F3900065114 /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = 670FA682286C5F3800065114 /* Style.css */; };
+		670FA6CA286C5F3900065114 /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = 670FA683286C5F3800065114 /* Script.js */; };
+		670FA6CB286C5F3900065114 /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = 670FA683286C5F3800065114 /* Script.js */; };
+		670FA6CC286C5F3900065114 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 670FA684286C5F3800065114 /* ViewController.swift */; };
+		670FA6CD286C5F3900065114 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 670FA684286C5F3800065114 /* ViewController.swift */; };
+		670FA6CE286C5F3900065114 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 670FA685286C5F3900065114 /* Assets.xcassets */; };
+		670FA6CF286C5F3900065114 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 670FA685286C5F3900065114 /* Assets.xcassets */; };
+		670FA6D0286C5F3900065114 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 670FA687286C5F3900065114 /* SafariWebExtensionHandler.swift */; };
+		670FA6D1286C5F3900065114 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 670FA687286C5F3900065114 /* SafariWebExtensionHandler.swift */; };
+		670FA6D2286C5F3900065114 /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = 670FA689286C5F3900065114 /* _locales */; };
+		670FA6D3286C5F3900065114 /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = 670FA689286C5F3900065114 /* _locales */; };
+		670FA6D4286C5F3900065114 /* images in Resources */ = {isa = PBXBuildFile; fileRef = 670FA68A286C5F3900065114 /* images */; };
+		670FA6D5286C5F3900065114 /* images in Resources */ = {isa = PBXBuildFile; fileRef = 670FA68A286C5F3900065114 /* images */; };
+		670FA6D6286C5F3900065114 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 670FA68B286C5F3900065114 /* manifest.json */; };
+		670FA6D7286C5F3900065114 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 670FA68B286C5F3900065114 /* manifest.json */; };
+		670FA6D8286C5F3900065114 /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = 670FA68C286C5F3900065114 /* background.js */; };
+		670FA6D9286C5F3900065114 /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = 670FA68C286C5F3900065114 /* background.js */; };
+		670FA6DA286C5F3900065114 /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = 670FA68D286C5F3900065114 /* content.js */; };
+		670FA6DB286C5F3900065114 /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = 670FA68D286C5F3900065114 /* content.js */; };
+		670FA6DC286C5F3900065114 /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = 670FA68E286C5F3900065114 /* popup.html */; };
+		670FA6DD286C5F3900065114 /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = 670FA68E286C5F3900065114 /* popup.html */; };
+		670FA6DE286C5F3900065114 /* popup.css in Resources */ = {isa = PBXBuildFile; fileRef = 670FA68F286C5F3900065114 /* popup.css */; };
+		670FA6DF286C5F3900065114 /* popup.css in Resources */ = {isa = PBXBuildFile; fileRef = 670FA68F286C5F3900065114 /* popup.css */; };
+		670FA6E0286C5F3900065114 /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = 670FA690286C5F3900065114 /* popup.js */; };
+		670FA6E1286C5F3900065114 /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = 670FA690286C5F3900065114 /* popup.js */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		670FA6B5286C5F3900065114 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 670FA679286C5F3800065114 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 670FA6B2286C5F3900065114;
+			remoteInfo = "speedyboi Extension (iOS)";
+		};
+		670FA6BF286C5F3900065114 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 670FA679286C5F3800065114 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 670FA6BC286C5F3900065114;
+			remoteInfo = "speedyboi Extension (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		670FA6E7286C5F3900065114 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				670FA6B4286C5F3900065114 /* speedyboi Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		670FA6EE286C5F3900065114 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				670FA6BE286C5F3900065114 /* speedyboi Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		670FA680286C5F3800065114 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = ../Base.lproj/Main.html; sourceTree = "<group>"; };
+		670FA681286C5F3800065114 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		670FA682286C5F3800065114 /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
+		670FA683286C5F3800065114 /* Script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Script.js; sourceTree = "<group>"; };
+		670FA684286C5F3800065114 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		670FA685286C5F3900065114 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		670FA687286C5F3900065114 /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
+		670FA689286C5F3900065114 /* _locales */ = {isa = PBXFileReference; lastKnownFileType = folder; path = _locales; sourceTree = "<group>"; };
+		670FA68A286C5F3900065114 /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = images; sourceTree = "<group>"; };
+		670FA68B286C5F3900065114 /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = manifest.json; sourceTree = "<group>"; };
+		670FA68C286C5F3900065114 /* background.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = background.js; sourceTree = "<group>"; };
+		670FA68D286C5F3900065114 /* content.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = content.js; sourceTree = "<group>"; };
+		670FA68E286C5F3900065114 /* popup.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = popup.html; sourceTree = "<group>"; };
+		670FA68F286C5F3900065114 /* popup.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = popup.css; sourceTree = "<group>"; };
+		670FA690286C5F3900065114 /* popup.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = popup.js; sourceTree = "<group>"; };
+		670FA695286C5F3900065114 /* speedyboi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = speedyboi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		670FA698286C5F3900065114 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		670FA69A286C5F3900065114 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		670FA69D286C5F3900065114 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		670FA6A0286C5F3900065114 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		670FA6A2286C5F3900065114 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		670FA6A7286C5F3900065114 /* speedyboi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = speedyboi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		670FA6A9286C5F3900065114 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		670FA6AC286C5F3900065114 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		670FA6AE286C5F3900065114 /* speedyboi.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = speedyboi.entitlements; sourceTree = "<group>"; };
+		670FA6B3286C5F3900065114 /* speedyboi Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "speedyboi Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		670FA6B8286C5F3900065114 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		670FA6BD286C5F3900065114 /* speedyboi Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "speedyboi Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		670FA6C2286C5F3900065114 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		670FA6C3286C5F3900065114 /* speedyboi.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = speedyboi.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		670FA692286C5F3900065114 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		670FA6A4286C5F3900065114 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		670FA6B0286C5F3900065114 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		670FA6BA286C5F3900065114 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		670FA678286C5F3800065114 = {
+			isa = PBXGroup;
+			children = (
+				670FA67D286C5F3800065114 /* Shared (App) */,
+				670FA686286C5F3900065114 /* Shared (Extension) */,
+				670FA697286C5F3900065114 /* iOS (App) */,
+				670FA6A8286C5F3900065114 /* macOS (App) */,
+				670FA6B7286C5F3900065114 /* iOS (Extension) */,
+				670FA6C1286C5F3900065114 /* macOS (Extension) */,
+				670FA696286C5F3900065114 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		670FA67D286C5F3800065114 /* Shared (App) */ = {
+			isa = PBXGroup;
+			children = (
+				670FA684286C5F3800065114 /* ViewController.swift */,
+				670FA685286C5F3900065114 /* Assets.xcassets */,
+				670FA67E286C5F3800065114 /* Resources */,
+			);
+			path = "Shared (App)";
+			sourceTree = "<group>";
+		};
+		670FA67E286C5F3800065114 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				670FA67F286C5F3800065114 /* Main.html */,
+				670FA681286C5F3800065114 /* Icon.png */,
+				670FA682286C5F3800065114 /* Style.css */,
+				670FA683286C5F3800065114 /* Script.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		670FA686286C5F3900065114 /* Shared (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				670FA687286C5F3900065114 /* SafariWebExtensionHandler.swift */,
+				670FA688286C5F3900065114 /* Resources */,
+			);
+			path = "Shared (Extension)";
+			sourceTree = "<group>";
+		};
+		670FA688286C5F3900065114 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				670FA689286C5F3900065114 /* _locales */,
+				670FA68A286C5F3900065114 /* images */,
+				670FA68B286C5F3900065114 /* manifest.json */,
+				670FA68C286C5F3900065114 /* background.js */,
+				670FA68D286C5F3900065114 /* content.js */,
+				670FA68E286C5F3900065114 /* popup.html */,
+				670FA68F286C5F3900065114 /* popup.css */,
+				670FA690286C5F3900065114 /* popup.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		670FA696286C5F3900065114 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				670FA695286C5F3900065114 /* speedyboi.app */,
+				670FA6A7286C5F3900065114 /* speedyboi.app */,
+				670FA6B3286C5F3900065114 /* speedyboi Extension.appex */,
+				670FA6BD286C5F3900065114 /* speedyboi Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		670FA697286C5F3900065114 /* iOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				670FA698286C5F3900065114 /* AppDelegate.swift */,
+				670FA69A286C5F3900065114 /* SceneDelegate.swift */,
+				670FA69C286C5F3900065114 /* LaunchScreen.storyboard */,
+				670FA69F286C5F3900065114 /* Main.storyboard */,
+				670FA6A2286C5F3900065114 /* Info.plist */,
+			);
+			path = "iOS (App)";
+			sourceTree = "<group>";
+		};
+		670FA6A8286C5F3900065114 /* macOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				670FA6A9286C5F3900065114 /* AppDelegate.swift */,
+				670FA6AB286C5F3900065114 /* Main.storyboard */,
+				670FA6AE286C5F3900065114 /* speedyboi.entitlements */,
+			);
+			path = "macOS (App)";
+			sourceTree = "<group>";
+		};
+		670FA6B7286C5F3900065114 /* iOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				670FA6B8286C5F3900065114 /* Info.plist */,
+			);
+			path = "iOS (Extension)";
+			sourceTree = "<group>";
+		};
+		670FA6C1286C5F3900065114 /* macOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				670FA6C2286C5F3900065114 /* Info.plist */,
+				670FA6C3286C5F3900065114 /* speedyboi.entitlements */,
+			);
+			path = "macOS (Extension)";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		670FA694286C5F3900065114 /* speedyboi (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 670FA6E8286C5F3900065114 /* Build configuration list for PBXNativeTarget "speedyboi (iOS)" */;
+			buildPhases = (
+				670FA691286C5F3900065114 /* Sources */,
+				670FA692286C5F3900065114 /* Frameworks */,
+				670FA693286C5F3900065114 /* Resources */,
+				670FA6E7286C5F3900065114 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				670FA6B6286C5F3900065114 /* PBXTargetDependency */,
+			);
+			name = "speedyboi (iOS)";
+			productName = "speedyboi (iOS)";
+			productReference = 670FA695286C5F3900065114 /* speedyboi.app */;
+			productType = "com.apple.product-type.application";
+		};
+		670FA6A6286C5F3900065114 /* speedyboi (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 670FA6EF286C5F3900065114 /* Build configuration list for PBXNativeTarget "speedyboi (macOS)" */;
+			buildPhases = (
+				670FA6A3286C5F3900065114 /* Sources */,
+				670FA6A4286C5F3900065114 /* Frameworks */,
+				670FA6A5286C5F3900065114 /* Resources */,
+				670FA6EE286C5F3900065114 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				670FA6C0286C5F3900065114 /* PBXTargetDependency */,
+			);
+			name = "speedyboi (macOS)";
+			productName = "speedyboi (macOS)";
+			productReference = 670FA6A7286C5F3900065114 /* speedyboi.app */;
+			productType = "com.apple.product-type.application";
+		};
+		670FA6B2286C5F3900065114 /* speedyboi Extension (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 670FA6E4286C5F3900065114 /* Build configuration list for PBXNativeTarget "speedyboi Extension (iOS)" */;
+			buildPhases = (
+				670FA6AF286C5F3900065114 /* Sources */,
+				670FA6B0286C5F3900065114 /* Frameworks */,
+				670FA6B1286C5F3900065114 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "speedyboi Extension (iOS)";
+			productName = "speedyboi Extension (iOS)";
+			productReference = 670FA6B3286C5F3900065114 /* speedyboi Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		670FA6BC286C5F3900065114 /* speedyboi Extension (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 670FA6EB286C5F3900065114 /* Build configuration list for PBXNativeTarget "speedyboi Extension (macOS)" */;
+			buildPhases = (
+				670FA6B9286C5F3900065114 /* Sources */,
+				670FA6BA286C5F3900065114 /* Frameworks */,
+				670FA6BB286C5F3900065114 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "speedyboi Extension (macOS)";
+			productName = "speedyboi Extension (macOS)";
+			productReference = 670FA6BD286C5F3900065114 /* speedyboi Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		670FA679286C5F3800065114 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					670FA694286C5F3900065114 = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+					670FA6A6286C5F3900065114 = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+					670FA6B2286C5F3900065114 = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+					670FA6BC286C5F3900065114 = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 670FA67C286C5F3800065114 /* Build configuration list for PBXProject "speedyboi" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 670FA678286C5F3800065114;
+			productRefGroup = 670FA696286C5F3900065114 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				670FA694286C5F3900065114 /* speedyboi (iOS) */,
+				670FA6A6286C5F3900065114 /* speedyboi (macOS) */,
+				670FA6B2286C5F3900065114 /* speedyboi Extension (iOS) */,
+				670FA6BC286C5F3900065114 /* speedyboi Extension (macOS) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		670FA693286C5F3900065114 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				670FA6C6286C5F3900065114 /* Icon.png in Resources */,
+				670FA69E286C5F3900065114 /* LaunchScreen.storyboard in Resources */,
+				670FA6C4286C5F3900065114 /* Main.html in Resources */,
+				670FA6CA286C5F3900065114 /* Script.js in Resources */,
+				670FA6CE286C5F3900065114 /* Assets.xcassets in Resources */,
+				670FA6A1286C5F3900065114 /* Main.storyboard in Resources */,
+				670FA6C8286C5F3900065114 /* Style.css in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		670FA6A5286C5F3900065114 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				670FA6C7286C5F3900065114 /* Icon.png in Resources */,
+				670FA6C9286C5F3900065114 /* Style.css in Resources */,
+				670FA6AD286C5F3900065114 /* Main.storyboard in Resources */,
+				670FA6CB286C5F3900065114 /* Script.js in Resources */,
+				670FA6CF286C5F3900065114 /* Assets.xcassets in Resources */,
+				670FA6C5286C5F3900065114 /* Main.html in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		670FA6B1286C5F3900065114 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				670FA6D8286C5F3900065114 /* background.js in Resources */,
+				670FA6DE286C5F3900065114 /* popup.css in Resources */,
+				670FA6DC286C5F3900065114 /* popup.html in Resources */,
+				670FA6D4286C5F3900065114 /* images in Resources */,
+				670FA6D6286C5F3900065114 /* manifest.json in Resources */,
+				670FA6D2286C5F3900065114 /* _locales in Resources */,
+				670FA6DA286C5F3900065114 /* content.js in Resources */,
+				670FA6E0286C5F3900065114 /* popup.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		670FA6BB286C5F3900065114 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				670FA6D9286C5F3900065114 /* background.js in Resources */,
+				670FA6DF286C5F3900065114 /* popup.css in Resources */,
+				670FA6DD286C5F3900065114 /* popup.html in Resources */,
+				670FA6D5286C5F3900065114 /* images in Resources */,
+				670FA6D7286C5F3900065114 /* manifest.json in Resources */,
+				670FA6D3286C5F3900065114 /* _locales in Resources */,
+				670FA6DB286C5F3900065114 /* content.js in Resources */,
+				670FA6E1286C5F3900065114 /* popup.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		670FA691286C5F3900065114 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				670FA6CC286C5F3900065114 /* ViewController.swift in Sources */,
+				670FA699286C5F3900065114 /* AppDelegate.swift in Sources */,
+				670FA69B286C5F3900065114 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		670FA6A3286C5F3900065114 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				670FA6CD286C5F3900065114 /* ViewController.swift in Sources */,
+				670FA6AA286C5F3900065114 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		670FA6AF286C5F3900065114 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				670FA6D0286C5F3900065114 /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		670FA6B9286C5F3900065114 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				670FA6D1286C5F3900065114 /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		670FA6B6286C5F3900065114 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 670FA6B2286C5F3900065114 /* speedyboi Extension (iOS) */;
+			targetProxy = 670FA6B5286C5F3900065114 /* PBXContainerItemProxy */;
+		};
+		670FA6C0286C5F3900065114 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 670FA6BC286C5F3900065114 /* speedyboi Extension (macOS) */;
+			targetProxy = 670FA6BF286C5F3900065114 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		670FA67F286C5F3800065114 /* Main.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				670FA680286C5F3800065114 /* Base */,
+			);
+			name = Main.html;
+			sourceTree = "<group>";
+		};
+		670FA69C286C5F3900065114 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				670FA69D286C5F3900065114 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		670FA69F286C5F3900065114 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				670FA6A0286C5F3900065114 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		670FA6AB286C5F3900065114 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				670FA6AC286C5F3900065114 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		670FA6E2286C5F3900065114 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		670FA6E3286C5F3900065114 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		670FA6E5286C5F3900065114 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M5Y8XX47PS;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "speedyboi Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cool.hanif.speedyboi.Extension;
+				PRODUCT_NAME = "speedyboi Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		670FA6E6286C5F3900065114 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M5Y8XX47PS;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "speedyboi Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cool.hanif.speedyboi.Extension;
+				PRODUCT_NAME = "speedyboi Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		670FA6E9286C5F3900065114 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M5Y8XX47PS;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = speedyboi;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cool.hanif.speedyboi;
+				PRODUCT_NAME = speedyboi;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		670FA6EA286C5F3900065114 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M5Y8XX47PS;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = speedyboi;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cool.hanif.speedyboi;
+				PRODUCT_NAME = speedyboi;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		670FA6EC286C5F3900065114 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/speedyboi.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M5Y8XX47PS;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "speedyboi Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cool.hanif.speedyboi.Extension;
+				PRODUCT_NAME = "speedyboi Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		670FA6ED286C5F3900065114 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/speedyboi.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M5Y8XX47PS;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "speedyboi Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cool.hanif.speedyboi.Extension;
+				PRODUCT_NAME = "speedyboi Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		670FA6F0286C5F3900065114 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/speedyboi.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M5Y8XX47PS;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = speedyboi;
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cool.hanif.speedyboi;
+				PRODUCT_NAME = speedyboi;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		670FA6F1286C5F3900065114 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/speedyboi.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M5Y8XX47PS;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = speedyboi;
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cool.hanif.speedyboi;
+				PRODUCT_NAME = speedyboi;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		670FA67C286C5F3800065114 /* Build configuration list for PBXProject "speedyboi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				670FA6E2286C5F3900065114 /* Debug */,
+				670FA6E3286C5F3900065114 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		670FA6E4286C5F3900065114 /* Build configuration list for PBXNativeTarget "speedyboi Extension (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				670FA6E5286C5F3900065114 /* Debug */,
+				670FA6E6286C5F3900065114 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		670FA6E8286C5F3900065114 /* Build configuration list for PBXNativeTarget "speedyboi (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				670FA6E9286C5F3900065114 /* Debug */,
+				670FA6EA286C5F3900065114 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		670FA6EB286C5F3900065114 /* Build configuration list for PBXNativeTarget "speedyboi Extension (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				670FA6EC286C5F3900065114 /* Debug */,
+				670FA6ED286C5F3900065114 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		670FA6EF286C5F3900065114 /* Build configuration list for PBXNativeTarget "speedyboi (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				670FA6F0286C5F3900065114 /* Debug */,
+				670FA6F1286C5F3900065114 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 670FA679286C5F3800065114 /* Project object */;
+}
