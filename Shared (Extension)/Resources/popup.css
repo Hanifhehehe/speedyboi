@@ -3,11 +3,17 @@
 }
 
 body {
-    width: 100px;
-    padding: 10px;
+    width: 200px;
+    padding: 10px 0px 10px 40px;
 
     font-family: system-ui;
-    text-align: center;
+    text-align: left;
+}
+
+li {
+    list-style: none;
+    position: relative;
+    right : 35px;
 }
 
 @media (prefers-color-scheme: dark) {

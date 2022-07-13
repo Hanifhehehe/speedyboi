@@ -1,3 +1,5 @@
-browser.tabs.executeScript({file:"content.js"});
-console.log("Working!", browser);
+function () {
+    if (browser.tabs.executeScript({file:"content.js"}) == true)
+        
+}
 //browser.tabs.executeScript({file:"content.js"

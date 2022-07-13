@@ -13,8 +13,8 @@
 		670FA6A1286C5F3900065114 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 670FA69F286C5F3900065114 /* Main.storyboard */; };
 		670FA6AA286C5F3900065114 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 670FA6A9286C5F3900065114 /* AppDelegate.swift */; };
 		670FA6AD286C5F3900065114 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 670FA6AB286C5F3900065114 /* Main.storyboard */; };
-		670FA6B4286C5F3900065114 /* speedyboi Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 670FA6B3286C5F3900065114 /* speedyboi Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		670FA6BE286C5F3900065114 /* speedyboi Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 670FA6BD286C5F3900065114 /* speedyboi Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		670FA6B4286C5F3900065114 /* speedyboi Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 670FA6B3286C5F3900065114 /* speedyboi Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		670FA6BE286C5F3900065114 /* speedyboi Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 670FA6BD286C5F3900065114 /* speedyboi Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		670FA6C4286C5F3900065114 /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = 670FA67F286C5F3800065114 /* Main.html */; };
 		670FA6C5286C5F3900065114 /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = 670FA67F286C5F3800065114 /* Main.html */; };
 		670FA6C6286C5F3900065114 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 670FA681286C5F3800065114 /* Icon.png */; };
@@ -65,26 +65,26 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		670FA6E7286C5F3900065114 /* Embed App Extensions */ = {
+		670FA6E7286C5F3900065114 /* Embed Foundation Extensions */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				670FA6B4286C5F3900065114 /* speedyboi Extension.appex in Embed App Extensions */,
+				670FA6B4286C5F3900065114 /* speedyboi Extension.appex in Embed Foundation Extensions */,
 			);
-			name = "Embed App Extensions";
+			name = "Embed Foundation Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		670FA6EE286C5F3900065114 /* Embed App Extensions */ = {
+		670FA6EE286C5F3900065114 /* Embed Foundation Extensions */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				670FA6BE286C5F3900065114 /* speedyboi Extension.appex in Embed App Extensions */,
+				670FA6BE286C5F3900065114 /* speedyboi Extension.appex in Embed Foundation Extensions */,
 			);
-			name = "Embed App Extensions";
+			name = "Embed Foundation Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
@@ -272,7 +272,7 @@
 				670FA691286C5F3900065114 /* Sources */,
 				670FA692286C5F3900065114 /* Frameworks */,
 				670FA693286C5F3900065114 /* Resources */,
-				670FA6E7286C5F3900065114 /* Embed App Extensions */,
+				670FA6E7286C5F3900065114 /* Embed Foundation Extensions */,
 			);
 			buildRules = (
 			);
@@ -291,7 +291,7 @@
 				670FA6A3286C5F3900065114 /* Sources */,
 				670FA6A4286C5F3900065114 /* Frameworks */,
 				670FA6A5286C5F3900065114 /* Resources */,
-				670FA6EE286C5F3900065114 /* Embed App Extensions */,
+				670FA6EE286C5F3900065114 /* Embed Foundation Extensions */,
 			);
 			buildRules = (
 			);
@@ -345,7 +345,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1330;
-				LastUpgradeCheck = 1330;
+				LastUpgradeCheck = 1400;
 				TargetAttributes = {
 					670FA694286C5F3900065114 = {
 						CreatedOnToolsVersion = 13.3.1;
@@ -562,6 +562,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
@@ -620,6 +621,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -782,9 +784,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/speedyboi.entitlements";
+				CODE_SIGN_IDENTITY = "-";
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = M5Y8XX47PS;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -815,9 +819,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/speedyboi.entitlements";
+				CODE_SIGN_IDENTITY = "-";
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = M5Y8XX47PS;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -851,8 +857,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = "macOS (App)/speedyboi.entitlements";
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = M5Y8XX47PS;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -886,8 +894,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = "macOS (App)/speedyboi.entitlements";
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = M5Y8XX47PS;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;

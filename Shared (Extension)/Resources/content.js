@@ -7,11 +7,16 @@ document.addEventListener("keydown", function(event) {
     manipulateSpeed(event.key);
 })
 
+function resetPlayingVideo() {
+    playingVideo = null
+    playingVideo = document.querySelectorAll("video")
+}
 
 function manipulateSpeed(key) {
     
     switch (key) {
         case "g":
+            resetPlayingVideo();
             speedComfortable();
             showSpeed();
             break;
@@ -28,14 +33,16 @@ function manipulateSpeed(key) {
             showSpeed();
             break;
         case "v":
+            console.log(speedCurrent.toString().slice(0,3));
+            break;
+        case "√":
             alert(speedCurrent.toString().slice(0,3));
             break;
-        
     
         default:
             break;
     }
-//    document.querySelector('.current-speed').innerHTML = showSpeed()
+    document.querySelector('.current-speed').innerHTML = showSpeed()
 }
 
 function showSpeed() {
