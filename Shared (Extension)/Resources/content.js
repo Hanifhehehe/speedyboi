@@ -14,9 +14,9 @@ function resetPlayingVideo() {
 
 function manipulateSpeed(key) {
     
+    resetPlayingVideo();
     switch (key) {
         case "g":
-            resetPlayingVideo();
             speedComfortable();
             showSpeed();
             break;
@@ -36,13 +36,12 @@ function manipulateSpeed(key) {
             console.log(speedCurrent.toString().slice(0,3));
             break;
         case "√":
-            alert(speedCurrent.toString().slice(0,3));
+            alert("Current playback speed is " + speedCurrent.toString().slice(0,3));
             break;
     
         default:
             break;
     }
-    document.querySelector('.current-speed').innerHTML = showSpeed()
 }
 
 function showSpeed() {
